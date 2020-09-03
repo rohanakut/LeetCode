@@ -15,7 +15,11 @@ class Solution:
         
         return maxValue
 
-#This code does not make sense intuitively but we have to understand that this cpde is just calculating the *length* and not the actual substring        
+# Explanation : The sliding window algorithm does not make sense intuitively 
+# but when the window slides at one point in time the window will have a length of max substring without repeating characters. 
+# The problem is just to find the length not the exact substring, hence we can just use a sliding window. 
+# If we are to find the exact substring then this wont work because the set stores just unique characters 
+# and not the exact arrangement or the exact substring         
 # For example :
 # substring  - "auryasgiwoa"
 # In this the substring will be "auryasgiwo" . 
