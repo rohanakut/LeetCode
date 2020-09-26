@@ -20,7 +20,7 @@ Standard Problem. Brute force approach worked.
 Python STD
 Math.max
 
-4. integer to Roman
+4. IntegerToRoman
 Standard Problem. Brute force approach worked.
 
 5. 3SumClosest

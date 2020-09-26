@@ -1,8 +1,0 @@
-
-		
-ReverseInteger:
-Standard Problem. Brute force approach worked. The porblem is important just to understand how to reverse the string s[::-1]
-
-PalindromeNumber:
-Standard Problem. Brute force approach worked.
-
