@@ -1,0 +1,27 @@
+1. LongestSubstringWithoutrepeatingCharacters:
+Do not understand how it works.
+Explanation : The sliding window algorithm does not make sense intuitively 
+# but when the window slides at one point in time the window will have a length of max substring without repeating characters. 
+# The problem is just to find the length not the exact substring, hence we can just use a sliding window. 
+# If we are to find the exact substring then this wont work because the set stores just unique characters 
+# and not the exact arrangement or the exact substring         
+# For example :
+# substring  - "auryasgiwoa"
+# In this the substring will be "auryasgiwo" . 
+# Now if we run the code when the end pointer reaches position 10(last a) the set size is already  9. 
+# Now ideally it should delete the 'a' at point 5 but what window does is it removes u from the list. 
+# Now ideally the set should add two 'a''s in the set but the set never adds additional 'a' since the set stores only unique values. 
+# So even though the end pointer is at position 10 the size of the set will be 8 because of the set property.
+        
+2. StringToInteger(atoi):
+Standard Problem. Brute force approach worked.
+
+3. ContainerWithMostWater
+Python STD
+Math.max
+
+4. integer to Roman
+Standard Problem. Brute force approach worked.
+
+5. 3SumClosest
+Unique Problem. Worth looking. Here we loop through the array. so first we sort the array. after that we loop through array and this fixes one element in the tuple. Now after that we make another loop and run a 2 pointer system. The frst pointer is at i+1 position and second is at len(arr)-1 position. Now if arr[i+1]+arr[(len(arr-1)] is less that the expected sum move first pointer(i+1) ahead and if sum is greater than target move the end pointer(arr(len)-1) to the left. This helps in adjusting the value andfinally we reach the end goal which is our target.

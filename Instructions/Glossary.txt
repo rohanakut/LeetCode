@@ -1,0 +1,5 @@
+The file contains the list of:
+1. Standard Problem. Brute force approach worked.
+2. Do not understand how it works
+3. New data Structure
+4. New Algorithm
