@@ -1,1 +1,1 @@
-This repository contains my collection of solved problems. every problem will have an explanation at the bottom and as to why I think the code is not that intuitive
+Refer instructions for the documentation of every problem. Preferably look into index number 3,4,5
